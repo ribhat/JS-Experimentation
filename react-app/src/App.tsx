@@ -32,9 +32,6 @@ function App() {
       <FirstButton color="success" onClick={() => setAlertVisibility(true)}>
         This is a success button
       </FirstButton>
-      <FirstButton color="danger" onClick={() => setAlertVisibility(true)}>
-        This is a danger button
-      </FirstButton>
     </div>
   );
 }
